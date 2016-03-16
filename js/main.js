@@ -16,5 +16,14 @@ $('body').append($liAbove);
 $h1Above.html('Above Ground Veggies');
 $('body').append($liAbove);
 
+$('ul li' ). each(function (){
+  if ($(this).hasClass('below')) {
+    $liAbove.append($(this)); }
+    else{
+    $liBelow.append($(this));
+  }
+}
+);
+
 
 
